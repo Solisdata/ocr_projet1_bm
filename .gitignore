@@ -1,0 +1,13 @@
+# Ignorer le dossier de données volumineuses
+db_bm/
+
+# Ignorer les fichiers checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Ignorer les fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Ignorer les dossiers d'environnement (si tu en as)
+.venv/
+.env/
