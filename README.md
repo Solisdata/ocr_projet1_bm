@@ -1,7 +1,7 @@
 # OCR - Projet 2 
 ## Analyse data-driven des opportunités d’extension de l’activité d’une école en ligne  
 
-Projet réalisé dans le cadre de la formation **Data Engineer** d’OpenClassrooms.
+Projet réalisé dans le cadre de la formation **Data Engineer** d’OpenClassRoom.
 
 ---
 
