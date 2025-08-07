@@ -29,6 +29,32 @@ L’objectif de cette pré-analyse est de produire des résultats clairs et util
 - Comment exploiter les données de la Banque mondiale pour guider cette expansion ?
 - Sur quels critères s’appuyer pour identifier les meilleures opportunités ?
 
+
+---
+
+## Travail réalisé
+
+1. **Chargement et exploration des jeux de données**  
+
+2. **Nettoyage des données**  
+   - Suppression des doublons  
+   - Traitement des valeurs manquantes  
+
+3. **Sélection des indicateurs pertinents**  
+   - Identification des indicateurs les plus représentatifs du potentiel de développement (ex. taux de scolarisation, population jeune, accès au numérique)
+
+4. **Normalisation des données et création d’un score composite pondéré par pays**  
+   - Mise à l’échelle des indicateurs  
+   - Pondération selon leur importance stratégique  
+   - Agrégation pour obtenir un score global par pays
+
+5. **Visualisations**  
+   - Représentations graphiques des distributions et des tendances (histogrammes, boxplots, etc.)  
+   - Visualisation géographique du score par pays via une carte interactive
+
+6. **Interprétation des résultats**  
+
+
 ---
 
 ## Données sources
@@ -56,29 +82,3 @@ Elles sont structurées en 5 tables principales :
 - `matplotlib`  
 - `seaborn`  
 - `plotly.express`
-
----
-
-## Travail réalisé
-
-## Travail réalisé
-
-1. **Chargement et exploration des jeux de données**  
-
-2. **Nettoyage des données**  
-   - Suppression des doublons  
-   - Traitement des valeurs manquantes  
-
-3. **Sélection des indicateurs pertinents**  
-   - Identification des indicateurs les plus représentatifs du potentiel de développement (ex. taux de scolarisation, population jeune, accès au numérique)
-
-4. **Normalisation des données et création d’un score composite pondéré par pays**  
-   - Mise à l’échelle des indicateurs  
-   - Pondération selon leur importance stratégique  
-   - Agrégation pour obtenir un score global par pays
-
-5. **Visualisations**  
-   - Représentations graphiques des distributions et des tendances (histogrammes, boxplots, etc.)  
-   - Visualisation géographique du score par pays via une carte interactive
-
-6. **Interprétation des résultats**  
